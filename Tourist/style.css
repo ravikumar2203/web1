@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(250, 224, 138); */
+}
+.main{
+    width: 100%;
+    background: linear-gradient( to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(Bangalore.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.tempmain{
+    width: 100%;
+    background: linear-gradient( to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url();
+    box-shadow: 20px;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.temp1
+{
+    margin-left: 30px;
+   float: left; 
+   border-radius: 10px;
+}
+.temp1 img{
+    border: 2px solid red;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    color: aqua;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: cadetblue;
+    font-size: 10px;
+    padding-left: 30px;
+    float: left;
+    padding-top: 20px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+}
+ul li{
+    padding-left: 130px;
+    list-style: none;
+    space-between
+    margin-left: 10px;
+    margin-top: 40px;
+    font-size: 30px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: red;
+}
+.h1{
+    color: aqua;
+    padding-left: 100px;
+    padding-top: 240px;
+    text-align: center;
+    font-size: 30px;
+}
+----------------------------------
